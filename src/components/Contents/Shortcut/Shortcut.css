@@ -1,0 +1,32 @@
+/* Shortcut.css */
+.shortcut {
+    width: 100%;
+}
+
+.shortcut-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.shortcut-list li {
+    flex: 1;
+    text-align: center;
+}
+
+.shortcut-list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.shortcut-list img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,48 @@
+/* Contents.css */
+.contents {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.tab-section {
+    grid-column: 1;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}
+
+.tabs button.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.tab-content {
+    padding: 15px;
+    min-height: 200px;
+}
+
+.banner-section {
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+.shortcut-section {
+    grid-column: 2;
+    grid-row: 2 / 3;
+}
